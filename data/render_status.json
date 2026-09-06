@@ -1,0 +1,8 @@
+{
+  "jobs": [
+    {"shot": "SH010_comp", "status": "done", "worker": "farm01", "frames": 120},
+    {"shot": "SH020_lighting", "status": "running", "worker": "farm02", "frames": 240},
+    {"shot": "SH030_fx", "status": "failed", "worker": null, "frames": 80, "error": "GPU memory exceeded"}
+  ],
+  "last_updated": "2026-09-06T12:00:00Z"
+}
