@@ -1,0 +1,12 @@
+# Sub-Task 1 uses only Python stdlib (dataclasses, enum) — no third-party packages needed.
+# Pydantic was considered but rejected: the models have no cross-field validation or
+# serialisation requirements at this stage. Plain dataclasses are sufficient and keep
+# the dependency surface minimal.
+#
+# Sub-Task 3: structlog chosen over python-json-logger because it natively supports
+# keyword-argument structured events (logger.info("event", key=value)) and emits
+# clean JSON without a separate formatter class.
+#
+# Sub-Task 4: pyyaml for worker pool configuration loading.
+structlog>=24.0.0
+pyyaml>=6.0

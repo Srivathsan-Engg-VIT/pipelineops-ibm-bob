@@ -1,0 +1,7 @@
+workers:
+  - name: farm01
+    gpu_memory_mb: null
+  - name: farm02
+    gpu_memory_mb: null
+  - name: farm03
+    gpu_memory_mb: null
